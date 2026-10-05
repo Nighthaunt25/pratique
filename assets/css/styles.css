@@ -1,74 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 
 :root {
-	--primary: #FF5A00;
-	--uiBg: #303030;
-	--secondaryBg: #ECEFF4;
-	--bg: #E0E0E0;
+  --primary: #ff5a00;
+  --uiBg: #303030;
+  --secondaryBg: #eceff4;
+  --bg: #e0e0e0;
 }
 
 .kalam-bold {
-	font-family: "Kalam", cursive;
-	font-weight: 700;
-	font-style: normal;
-	color: var(--primary);
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary);
 }
 
 body {
-	padding: auto;
-	margin: auto;
-	background-color: #E0E0E0;
+  padding: auto;
+  margin: auto;
+  background-color: #e0e0e0;
 }
 
 header {
-	border-bottom-left-radius: 75px;
-	background-color: #303030;
-
+  border-bottom-left-radius: 75px;
+  background-color: #303030;
+  position: relative;
 }
 header h1 {
-	font-family: 'Kalam',cursive;
-	margin: auto;
-	color: white;
-
+  font-family: "Kalam", cursive;
+  margin: auto;
+  color: white;
+}
+header img {
+  position: absolute;
+}
+header h2 {
+  font-family: "Inter", cursive;
+  margin: auto;
+  color: white;
 }
 
 #cardList {
-	background-color: #ECEFF5;
-	border-radius: 20px;
-	display: flex;
-	flex-wrap: wrap;	
-	justify-content: space-evenly;
-	
+  background-color: #eceff5;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 #cardList h2 {
-	text-align: center;
-	width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .icon_card {
-	width: 30%;
-	height: 250px;
-	background-color: #E0E0E0;
-	margin: 1vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	border-radius: 5%;
-	box-shadow: 7px 5px 5px orange;
+  width: 30%;
+  height: 250px;
+  background-color: #e0e0e0;
+  margin: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5%;
+  box-shadow: 7px 5px 5px orange;
 }
 #cardList div img {
-	width: 75px;
-	height: 75px;
-
+  width: 75px;
+  height: 75px;
 }
 #cardList div h3 {
-	width: 85%;
-	text-align: right;
-	padding: 4%;
-
+  width: 85%;
+  text-align: right;
+  padding: 4%;
 }
 .text_card {
-	width: 80%;
-	height: 80%;
+  width: 80%;
+  height: 80%;
 }
