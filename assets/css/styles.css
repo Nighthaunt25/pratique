@@ -23,15 +23,22 @@ body {
 header {
   border-bottom-left-radius: 75px;
   background-color: #303030;
-  position: relative;
+  height: 800px;
 }
 header h1 {
   font-family: "Kalam", cursive;
   margin: auto;
   color: white;
 }
+#overlay {
+	position: relative;
+}
 header img {
-  position: absolute;
+  /* display: block; */
+  height: 500px;
+}
+#overlayImage{
+	position: absolute;
 }
 header h2 {
   font-family: "Inter", cursive;
