@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+	--primary: #FF5A00;
+	--uiBg: #303030;
+	--secondaryBg: #ECEFF4;
+	--bg: #E0E0E0;
+}
+
+.kalam-bold {
+	font-family: "Kalam", cursive;
+	font-weight: 700;
+	font-style: normal;
+	color: var(--primary);
+}
+
+body {
+	padding: auto;
+	margin: auto;
+}
+
+header {
+	margin: auto;
+	padding: auto;
+	border-bottom-left-radius: 75px;
+	background-color: #303030;
+
+}
