@@ -20,10 +20,19 @@ body {
   background-color: #e0e0e0;
 }
 
-.button{
-	background-color: #FF5A00;
-	width: 75px;
-	height: 45px;
+.button {
+  background-color: #ff5a00;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.button div {
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 header {
@@ -37,19 +46,49 @@ header h1 {
   color: white;
 }
 #overlay {
-	position: relative;
+  position: relative;
 }
 header img {
   /* display: block; */
   height: 500px;
 }
-#overlayImage{
-	position: absolute;
+#overlayImage {
+  position: absolute;
 }
 header h2 {
   font-family: "Inter", cursive;
   margin: auto;
   color: white;
+}
+
+#with_us {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#article_2 {
+  box-shadow:
+    5px 5px 5px black,
+    -5px -5px 5px white;
+  height: 500px;
+  width: 1400px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#image_article_2 {
+	margin: 4%;
+}
+
+#text_article_2 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #cardList {
