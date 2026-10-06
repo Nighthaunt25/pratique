@@ -1,140 +1,43 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design - devLearn</title>
-  </head>
-  <body>
-    <header>
-      <h1>Développeur, votre futur passion</h1>
-      <p>monter en compétences dans les meuilleur conditions</p>
-      <div id="overlay">
-        <img src="fichiers/laptop/bgLaptop.svg" alt="tache blanche" />
-        <img
-          src="fichiers/laptop/laptop.png"
-          alt="ordinateur"
-          id="overlayImage"
-        />
-      </div>
-      <h2>plus vite vous commencer muilleurs vous serez</h2>
-      <div class="button">
-        <div>commencer !</div>
-        <ion-icon name="arrow-forward-outline"></ion-icon>
-      </div>
-    </header>
-    <main>
-      <article id="with_us">
-        <div id="article_2">
-          <div id="text_article_2">
-            <h2>avec nous :</h2>
-            <p>
-              beneficir d'un support sain, rapide, efficace, et adapter a vos
-              besoin pour apprendre dans les meuilleurs conditions.
-            </p>
-            <ul>
-              <li>choississez la technologie a apprendre</li>
-              <li>devenez meuilleur que des Développeur ssénior</li>
-              <li>soyez prêt pour tout type de projets</li>
-            </ul>
-            <div class="button">
-              <div>commencer !</div>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Design - devLearn</title>
+    </head>
+    <body>
+        <div id="hero">
+            <h1 id="hero__title" class="title">Développeur, votre future passion</h1>
+            <p id="hero__under__title">Montez en compétences dans les meilleurs conditions</p>
+            <p id="hero__info">Plus vite vous commencez,<br />Meilleur vous serez !</p>
+            <div class="start_button">
+                <span>Commencer !</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
             </div>
-          </div>
-          <div id="image_article_2">
-            <img src="fichiers/cardsImg/technologies.jpg" alt="" />
-          </div>
+            <div id="hero__laptop-image-container">
+                <div class="img" id="hero__laptop-background-image"><img src="assets/img/bgLaptop.svg" alt="" /></div>
+                <div class="img" id="hero__laptop-image"><img src="assets/img/laptop.png" alt="" /></div>
+            </div>
         </div>
-      </article>
-      <article id="cardList">
-        <h2>il nous recommande</h2>
-        <div class="icon_card">
-          <img src="fichiers/logo/googleIcon.svg" alt="icone google" />
-          <div class="text_card">
-            <p>
-              Meilleure plate-forme pour former nos développeurs surs de
-              nouvelles compétences.
-            </p>
-            <p>
-              Elle leurs permets d'être directement operationnel et efficace !
-            </p>
-          </div>
+        <div id="bonus">
+            <h2 id="bonus__title" class="title">Avec nous :</h2>
+            <p id="bonus__under__title">Bénéficier d'un support sain, rapide, efficace, est adapté à vos besoins pour apprendre dans les meilleures conditions.</p>
 
-          <h3>Google</h3>
+            <div id="bonus__checklist">
+                <div><ion-icon name="checkmark-outline"></ion-icon><span>Choisissez la technologie à apprendre</span></div>
+                <div><ion-icon name="checkmark-outline"></ion-icon><span>Devenez meilleures que des développeurs séniors</span></div>
+                <div><ion-icon name="checkmark-outline"></ion-icon><span>Soyez prêt pour tous types de projets</span></div>
+            </div>
+
+            <div class="start_button">
+                <span>Commencer !</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+
+            <div id="code-image"></div>
         </div>
-        <div class="icon_card">
-          <img src="fichiers/logo/microsoftIcon.svg" alt="microsoft icon" />
-          <div class="text_card">
-            <p>
-              Meilleure plate-forme pour former nos développeurs surs de
-              nouvelles compétences.
-            </p>
-            <p>
-              Elle leurs permets d'être directement operationnel et efficace !
-            </p>
-          </div>
-          <h3>Microsoft</h3>
-        </div>
-        <div class="icon_card">
-          <img src="fichiers/logo/appleIcon.svg" alt="apple icon" />
-          <div class="text_card">
-            <p>
-              Meilleure plate-forme pour former nos développeurs surs de
-              nouvelles compétences.
-            </p>
-            <p>
-              Elle leurs permets d'être directement operationnel et efficace !
-            </p>
-          </div>
-          <h3>Apple</h3>
-        </div>
-        <div class="icon_card">
-          <img src="fichiers/logo/amazonIcon.svg" alt="amazon icon" />
-          <div class="text_card">
-            <p>
-              Meilleure plate-forme pour former nos développeurs surs de
-              nouvelles compétences.
-            </p>
-            <p>
-              Elle leurs permets d'être directement operationnel et efficace !
-            </p>
-          </div>
-          <h3>Amazon</h3>
-        </div>
-        <div class="icon_card">
-          <img src="fichiers/logo/discordIcon.svg" alt="discord icon" />
-          <div class="text_card">
-            <p>
-              Meilleure plate-forme pour former nos développeurs surs de
-              nouvelles compétences.
-            </p>
-            <p>
-              Elle leurs permets d'être directement operationnel et efficace !
-            </p>
-          </div>
-          <h3>Discord</h3>
-        </div>
-        <div class="icon_card">
-          <img src="fichiers/logo/notionIcon.svg" alt="notion icon" />
-          <div class="text_card">
-            <p>
-              Meilleure plate-forme pour former nos développeurs surs de
-              nouvelles compétences.
-            </p>
-            <p>
-              Elle leurs permets d'être directement operationnel et efficace !
-            </p>
-          </div>
-          <h3>Notion</h3>
-        </div>
-      </article>
-    </main>
-    <footer></footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-  </body>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
 </html>
