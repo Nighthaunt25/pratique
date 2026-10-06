@@ -175,3 +175,30 @@ body {
     text-align: right;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #hero {
+    padding: 2.5vh 0 0 3.75rem;
+
+    &__under__title {
+      margin: -0.1rem 0 10rem 1.5rem;
+    }
+
+    &__info {
+      margin: 0 0 10rem 0;
+      font-size: 1.7rem;
+    }
+  }
+}
+@media screen and (max-width: 530px) {
+  #hero {
+    &__under__title {
+      margin: -0.1rem 0 8rem 1.5rem;
+    }
+
+    &__info {
+      margin: 0 0 7rem 0;
+      font-size: 1.7rem;
+    }
+  }
+}
